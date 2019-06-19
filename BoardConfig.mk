@@ -62,7 +62,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_porridge_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 MTK_APPENDED_DTB_SUPPORT := yes
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel.gz
+#TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel.gz
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
